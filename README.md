@@ -8,6 +8,7 @@ Dependencies:
 - Python 3.6
 - aiohttp
 - lxml
+(Can be installed via pip)
 
 #### Info
 
@@ -20,13 +21,19 @@ Make sure your LinkedIn account is **NOT** protected with 2FA
 #### Usage
 > pip3 install -r requirements.txt
 
+
 Edit config.py file (username, password and courses slugs)  
 
 ```Course's slug can be obtained using its url
 e.g:
-COURSE URL: https://www.linkedin.com/learning/python-advanced-design-pattern
+COURSE URL: https://www.linkedin.com/learning/learning-hadoop/
 ->
-SLUG: python-advanced-design-pattern
+USERNAME = 'xxxxxxxxxxx@gmail.com'
+PASSWORD = 'xxxxxxxx'
+COURSES = [
+        'learning-hadoop',
+]
+
 ```
 
 > python3 linkedin_learning.py
