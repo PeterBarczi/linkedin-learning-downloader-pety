@@ -24,7 +24,8 @@ Make sure your LinkedIn account is **NOT** protected with 2FA
 
 Edit config.py file (username, password and courses slugs)  
 
-```Course's slug can be obtained using its url
+Course's slug can be obtained using its url
+```
 e.g:
 COURSE URL: https://www.linkedin.com/learning/learning-hadoop/
 ->
